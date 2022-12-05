@@ -14,7 +14,7 @@ object Gecko {
     /**
      * GeckoView channel
      */
-    val channel = GeckoChannel.RELEASE
+    val channel = GeckoChannel.CENO
 }
 
 /**
@@ -25,5 +25,6 @@ enum class GeckoChannel(
 ) {
     NIGHTLY("geckoview-nightly-omni"),
     BETA("geckoview-beta-omni"),
+    CENO("geckoview-ceno-omni"),
     RELEASE("geckoview-omni")
 }
